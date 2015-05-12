@@ -1,0 +1,26 @@
+{
+    "name": "dwolke/zf-bootstrap",
+    "description": "ZF2 ViewHelper für Bootstrap 3",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["zend framework", "zf2", "bootstrap", "view helper"],
+    "homepage": "http://dw-labs.de",
+    "authors": [
+        {
+            "name": "Daniel Wolkenhauer",
+            "email": "info@dw-labs.de",
+            "homepage": "http://dw-labs.de",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": ">=2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZfBootstrap": "src/"
+        }
+    }
+}
